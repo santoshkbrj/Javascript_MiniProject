@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        .digital-clock {
+            display: flex;
+            justify-content: center;
+        }
+
+        .time {
+            display: flex;
+            width: 200px;
+            justify-content: space-evenly;
+        }
+
+        .calendar {
+            display: flex;
+            justify-content: space-evenly;
+            width: 137px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Digital Clock</h2>
+        <div class="digital-clock">
+            <div class="time">
+                <div class="hour"></div> :
+                <div class="minutes"></div>:
+                <div class="seconds"></div>
+                <div class="right-side">
+                    <div class="period"></div>
+                </div>
+            </div>
+            <div class="calendar">
+                <div class="day-name"></div>-
+                <div class="month-name"></div>-
+                <div class="year-name"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
